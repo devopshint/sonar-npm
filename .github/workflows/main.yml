@@ -1,8 +1,7 @@
 name: PR Verification
-  on:
-    pull_request:
+on: push
 jobs:
-  ...A BUNCH OF OTHER JOBS HERE THAT AREN'T RELEVANT
+ 
   sonarqube:
     name: SonarQube Scan
     runs-on: ubuntu-latest
