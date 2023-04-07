@@ -1,5 +1,6 @@
 name: PR Verification
 on: push
+
 jobs:
  
   sonarqube:
